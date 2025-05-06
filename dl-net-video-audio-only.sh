@@ -37,5 +37,3 @@ echo "Conversion complete: output.mp3"
 echo "Removing opus file: $trimd_opus"
 rm "$trimd_opus" 
 
-#opus = $(yt-dlp -x "https://www.youtube.com/shorts/wazat1asxVM")
-#ffmpeg -i $opus output.mp3
